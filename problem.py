@@ -9,4 +9,13 @@ def add_numbers(a, b):
         return a + b
     
     
-print(add_numbers(40, 30))
+# print(add_numbers(40, 30))
+
+
+"""For Loop Problem
+Problem: Print all even numbers between 1 and 50 using a for loop.
+Sample Output:
+Output: 2, 4, 6, 8, ..., 50"""
+
+for x in range(2, 51, 2):
+    print(x)
