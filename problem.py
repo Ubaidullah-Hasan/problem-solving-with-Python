@@ -18,4 +18,21 @@ Sample Output:
 Output: 2, 4, 6, 8, ..., 50"""
 
 for x in range(2, 51, 2):
-    print(x)
+    # print(x)
+    pass
+    
+    
+'''While Loop Problem
+Problem: Calculate the factorial of a given number using a while loop.
+Sample Input/Output:
+Input: 5
+Output: 120
+(Explanation:5×4×3×2×1=120)'''
+
+num = 6
+result = 1
+while(num > 0):
+    result = result * num
+    num = num - 1
+    
+print(result)
